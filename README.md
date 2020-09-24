@@ -2,7 +2,7 @@
 
 ![forthebadge](https://forthebadge.com/images/badges/open-source.svg)
 
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
+![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://www.will.tools)
 
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
