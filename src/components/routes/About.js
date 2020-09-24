@@ -11,6 +11,14 @@ export default function About() {
     }
     return year - 2006
   }
+  const messages = {
+    first: 'npx create-react-app will-lane',
+    second: 'cd will-lane/',
+    third: 'will-lane$ ',
+    fourth: 'npm i -D set-age',
+    fifth: `set-age ${getAge()}`,
+    sixth: 'npx set developer --python --vue --react --node'
+  }
   return (
     <div className='background'>
       <div className="container">
@@ -21,66 +29,46 @@ export default function About() {
             }}
             onInit={(typewriter) => {
               typewriter.pasteString('$ ')
-              typewriter.typeString('npx create-react-app will-lane')
+              typewriter.typeString(messages.first)
                 .pauseFor(250)
                 .changeDeleteSpeed(2)
                 .deleteAll(-2000000000)
                 .start();
               typewriter.pasteString('$ ')
-              typewriter.typeString('cd will-lane/')
+              typewriter.typeString(messages.second)
                 .pauseFor(250)
                 .changeDeleteSpeed(-200000000)
                 .pauseFor(500)
                 .deleteAll(-20000000)
                 .start();
-              typewriter.pasteString('will-lane$ ')
+              typewriter.pasteString(messages.third)
                 .pauseFor(250)
                 .changeDeleteSpeed(2)
                 .start();
-              typewriter.typeString('npm i -D set-age')
+              typewriter.typeString(messages.fourth)
                 .pauseFor(250)
                 .changeDeleteSpeed(-200000000)
                 .pauseFor(500)
-                .deleteChars(16)
+                .deleteChars(messages.fourth.length)
                 .start();
-              typewriter.typeString(`set-age ${getAge()}`)
+              typewriter.typeString(messages.fifth)
                 .pauseFor(250)
                 .changeDeleteSpeed(-200000000)
                 .pauseFor(500)
-                .deleteChars(10)
+                .deleteChars(messages.fifth.length)
                 .start();
-              typewriter.typeString('python --developer')
+              typewriter.typeString(messages.sixth)
                 .pauseFor(250)
                 .changeDeleteSpeed(-200000000)
                 .pauseFor(500)
-                .deleteChars(18)
+                .deleteAll(-200000000000)
                 .start();
-              typewriter.typeString('vue --developer')
-                .pauseFor(250)
-                .changeDeleteSpeed(-200000000)
-                .pauseFor(500)
-                .deleteChars(15)
-                .start();
-              typewriter.typeString('react --developer')
-                .pauseFor(250)
-                .changeDeleteSpeed(-2000000000)
-                .pauseFor(500)
-                .deleteChars(17)
-                .start();
-              typewriter.typeString('node --developer')
-                .pauseFor(250)
-                .changeDeleteSpeed(-2000000000)
-                .pauseFor(500)
-                .deleteChars(16)
-                .start();
-              typewriter.typeString('cool --developer 😎')
-                .pauseFor(250)
-                .changeDeleteSpeed(-2000000000)
-                .pauseFor(500)
-                .deleteAll(-2000000000)
-                .start();
+              typewriter.pasteString('SUCCESS')
+                .pauseFor(2500)
+                .deleteAll(-20000000000)
             }}
         />
+
       </div>
     </div>
   )

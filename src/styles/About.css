@@ -1,23 +1,28 @@
 .Typewriter__wrapper {
+    float: left;
     color: green;
-    font-size: 50px;
+    font-size: 2em;
     font-weight: bolder;
 }
 
 .Typewriter__cursor {
-    font-size: 50px;
+    float: left;
+    font-size: 2em;
     color: gray;
     font-weight: bolder;
 }
 
 .container {
-    display: flex;
+    display: block;
+    width: 100%;
+    height: 100%;
     text-align: center;
     align-items: center;
-    height: 50vh;
+    place-items: center;
 }
 
 .background {
     height: 100vh;
+    width: 100vw;
     background-color: black;
 }
