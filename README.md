@@ -29,7 +29,7 @@ cd react-portfolio-website
 npm install
 ```
 
-#### Start the development server"
+#### Start the development server:
 
 ```bash
 npm start
@@ -39,27 +39,25 @@ Visit the development server:
 
 `localhost:3000`
 
-## Testing
+## Testing:
 
 ```bash
 npm run test
 ```
 
-## Ejecting
-
-#### If for some reason something goes wrong
+## Ejecting:
 
 ```bash
 npm run eject
 ```
 
-## Building
+## Building:
 
 ```bash
 npm run build
 ```
 
-## Takeaways
+## Takeaways:
 
 > #### I like bootstrap more than material ui
    * Bootstrap has Navbar component
