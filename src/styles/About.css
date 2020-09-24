@@ -1,0 +1,9 @@
+.Typewriter__wrapper {
+    color: palevioletred;
+    font-size: 50px;
+}
+
+.Typewriter__cursor {
+    font-size: 50px;
+    color: black;
+}

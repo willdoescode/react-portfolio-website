@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import About from "./routes/About";
 import Home from "./routes/Home";
+import Contacts from "./routes/Contacts";
 
 export default function RouterView() {
   return (
@@ -10,8 +11,8 @@ export default function RouterView() {
           <Route path="/about">
             <About />
           </Route>
-          <Route path="/users">
-            <Users />
+          <Route path="/contacts">
+            <Contacts />
           </Route>
           <Route path="/">
             <Home />
@@ -19,8 +20,4 @@ export default function RouterView() {
         </Switch>
       </>
     )
-}
-
-function Users() {
-  return <h2>Users</h2>;
 }

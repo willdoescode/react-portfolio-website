@@ -1,3 +1,16 @@
 .active-link {
+    color: white !important;
+}
+
+Nav.Link {
+    color: gray;
+}
+
+.will {
     color: white;
+}
+
+.will:hover {
+    color: white;
+    text-decoration: none;
 }
