@@ -12,7 +12,7 @@
 
 ## Project Screen Shot(s)
 
-![screenshot1](ss1.png)
+![screenshot1](assets/ss1.png)
 
 ## Installation and Setup Instructions
 
