@@ -45,8 +45,31 @@ Visit the development server:
 npm run test
 ```
 
+## Ejecting
+
+#### If for some reason something goes wrong
+
+```bash
+npm run eject
+```
+
 ## Building
 
 ```bash
 npm run build
 ```
+
+## Takeaways
+
+> #### I like bootstrap more than material ui
+   * Bootstrap has Navbar component
+   * Bootstrap feels more complete and full than material
+
+> #### I enjoy Vue js for smaller projects, but I do like React for larger scale projects
+   * React feels like it has more working extensions
+   * Css frameworks are more complete for react
+   * Although its less intuitive I like how the React router works more than the Vue router
+   * useEffect is pretty cool 😎
+
+> #### `https://forthebadge.com/` has super fun badges
+   * Would highly recommend 
