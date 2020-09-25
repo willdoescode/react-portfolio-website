@@ -28,15 +28,6 @@ export default function SiteNavbar() {
               <Nav.Link>
                 <NavLink to="/contacts" className="nav-link" activeClassName="active-link">Contacts</NavLink>
               </Nav.Link>
-              <Nav.Link>
-                <NavLink to="/contacts" className="nav-link" activeClassName="active-link">Contacts</NavLink>
-              </Nav.Link>
-              <Nav.Link>
-                <NavLink to="/contacts" className="nav-link" activeClassName="active-link">Contacts</NavLink>
-              </Nav.Link>
-              <Nav.Link>
-                <NavLink to="/contacts" className="nav-link" activeClassName="active-link">Contacts</NavLink>
-              </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

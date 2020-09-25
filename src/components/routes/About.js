@@ -1,8 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import '../../styles/About.css';
 import Typewriter from 'typewriter-effect';
 
 export default function About() {
+  document.title = 'About / Will Lane'
+
   const date = new Date()
   const getAge = () => {
     let year = date.getFullYear()
